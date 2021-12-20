@@ -1,0 +1,431 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "D:\\Projects\\Botdex-contracts\\Botdex-core\\contracts\\BotdexERC20.sol": {
+      "lastModificationDate": 1639660427586,
+      "contentHash": "3e7a37a471e2dbe04cc1689f558e90ab",
+      "sourceName": "contracts/BotdexERC20.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 999999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/IBotdexERC20.sol"
+      ],
+      "versionPragmas": [
+        ">=0.8.0"
+      ],
+      "artifacts": [
+        "BotdexERC20"
+      ]
+    },
+    "D:\\Projects\\Botdex-contracts\\Botdex-core\\contracts\\interfaces\\IBotdexERC20.sol": {
+      "lastModificationDate": 1639660039310,
+      "contentHash": "3cc51ff0097b95efda51968e986e1d44",
+      "sourceName": "contracts/interfaces/IBotdexERC20.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 999999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IBotdexERC20"
+      ]
+    },
+    "D:\\Projects\\Botdex-contracts\\Botdex-core\\contracts\\test\\ERC20.sol": {
+      "lastModificationDate": 1639660006704,
+      "contentHash": "e139a2a191a2850eb923074ca6ae250a",
+      "sourceName": "contracts/test/ERC20.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 999999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../BotdexERC20.sol"
+      ],
+      "versionPragmas": [
+        ">=0.8.0"
+      ],
+      "artifacts": [
+        "ERC20"
+      ]
+    },
+    "D:\\Projects\\Botdex-contracts\\Botdex-core\\contracts\\BotdexPair.sol": {
+      "lastModificationDate": 1639660109247,
+      "contentHash": "be3b9d2030e27ba87ddfdd5223c04554",
+      "sourceName": "contracts/BotdexPair.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 999999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/IBotdexPair.sol",
+        "./BotdexERC20.sol",
+        "./libraries/Math.sol",
+        "./libraries/UQ112x112.sol",
+        "./interfaces/IERC20.sol",
+        "./interfaces/IBotdexFactory.sol",
+        "./interfaces/IBotdexCallee.sol"
+      ],
+      "versionPragmas": [
+        ">=0.8.0"
+      ],
+      "artifacts": [
+        "BotdexPair"
+      ]
+    },
+    "D:\\Projects\\Botdex-contracts\\Botdex-core\\contracts\\interfaces\\IBotdexPair.sol": {
+      "lastModificationDate": 1639660066035,
+      "contentHash": "fe7852438b9c25cfc15b20f7868ada1d",
+      "sourceName": "contracts/interfaces/IBotdexPair.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 999999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IBotdexERC20.sol"
+      ],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IBotdexPair"
+      ]
+    },
+    "D:\\Projects\\Botdex-contracts\\Botdex-core\\contracts\\libraries\\Math.sol": {
+      "lastModificationDate": 1639659890949,
+      "contentHash": "7069dd6f303e3d20a92097185f26d86b",
+      "sourceName": "contracts/libraries/Math.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 999999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.8.0"
+      ],
+      "artifacts": [
+        "Math"
+      ]
+    },
+    "D:\\Projects\\Botdex-contracts\\Botdex-core\\contracts\\libraries\\UQ112x112.sol": {
+      "lastModificationDate": 1639659890949,
+      "contentHash": "5d2b952cc1d64f746c2579c803abe083",
+      "sourceName": "contracts/libraries/UQ112x112.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 999999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.8.0"
+      ],
+      "artifacts": [
+        "UQ112x112"
+      ]
+    },
+    "D:\\Projects\\Botdex-contracts\\Botdex-core\\contracts\\interfaces\\IERC20.sol": {
+      "lastModificationDate": 1639659890949,
+      "contentHash": "2290ca2ec74690ed9024d986955ef431",
+      "sourceName": "contracts/interfaces/IERC20.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 999999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "D:\\Projects\\Botdex-contracts\\Botdex-core\\contracts\\interfaces\\IBotdexFactory.sol": {
+      "lastModificationDate": 1639660049940,
+      "contentHash": "75d17235aa781eff50d6274c2248241c",
+      "sourceName": "contracts/interfaces/IBotdexFactory.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 999999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IBotdexFactory"
+      ]
+    },
+    "D:\\Projects\\Botdex-contracts\\Botdex-core\\contracts\\interfaces\\IBotdexCallee.sol": {
+      "lastModificationDate": 1639660024634,
+      "contentHash": "618616561d1b9c374ec6a56f034d3fb3",
+      "sourceName": "contracts/interfaces/IBotdexCallee.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 999999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IBotdexCallee"
+      ]
+    },
+    "D:\\Projects\\Botdex-contracts\\Botdex-core\\contracts\\BotdexFactory.sol": {
+      "lastModificationDate": 1639660099289,
+      "contentHash": "3cc06a8219cf5428ced9ed91a6bddb31",
+      "sourceName": "contracts/BotdexFactory.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 999999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/IBotdexFactory.sol",
+        "./interfaces/IBotdexPair.sol",
+        "./BotdexPair.sol"
+      ],
+      "versionPragmas": [
+        ">=0.8.0"
+      ],
+      "artifacts": [
+        "BotdexFactory"
+      ]
+    },
+    "D:\\Projects\\Botdex-contracts\\Botdex-core\\contracts\\Migration.sol": {
+      "lastModificationDate": 1639659890949,
+      "contentHash": "f2b39256aad0ef9748673efedb4f4054",
+      "sourceName": "contracts/Migration.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 999999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.8.0"
+      ],
+      "artifacts": [
+        "Migrations"
+      ]
+    }
+  }
+}
