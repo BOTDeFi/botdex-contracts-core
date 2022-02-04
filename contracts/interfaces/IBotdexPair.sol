@@ -3,6 +3,7 @@ pragma solidity >=0.5.0;
 import './IBotdexERC20.sol';
 
 interface IBotdexPair is IBotdexERC20 {
+    
     event Mint(address indexed sender, uint amount0, uint amount1);
     event Burn(address indexed sender, uint amount0, uint amount1, address indexed to);
     event Swap(

@@ -70,7 +70,7 @@ describe('BotdexFactory', () => {
   it('createPair:gas', async () => {
     const tx = await factory.createPair(...TEST_ADDRESSES)
     const receipt = await tx.wait()
-    expect(receipt.gasUsed).to.eq(2399649)
+    expect(receipt.gasUsed).to.eq(2401049)
   })
 
   it('setFeeTo', async () => {

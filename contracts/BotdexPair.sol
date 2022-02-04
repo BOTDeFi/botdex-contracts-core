@@ -51,7 +51,7 @@ contract BotdexPair is IBotdexPair, BotdexERC20 {
     }
 
     function initialize(address _token0, address _token1) external override {
-        require(msg.sender == factory, 'Pancake: FORBIDDEN'); // sufficient check
+        require(msg.sender == factory, 'Botdex: FORBIDDEN'); // sufficient check
         token0 = _token0;
         token1 = _token1;
     }
